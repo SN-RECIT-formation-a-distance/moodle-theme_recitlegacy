@@ -1,1 +1,1 @@
-# recitfad-moodle-plugin-theme-art
+# recitfad-moodle-plugin-theme-legacy
