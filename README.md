@@ -1,0 +1,1 @@
+# recitfad-moodle-plugin-theme-art
