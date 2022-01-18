@@ -15,7 +15,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
-// @package    theme_recit_legacy
+// @package    theme_recitlegacy
 // @subpackage RECIT
 // @copyright  RECIT {@link https://recitfad.ca}
 // @author     RECIT {@link https://recitfad.ca}
@@ -25,7 +25,7 @@
 // This line protects the file from being accessed by a URL directly.                                                               
 defined('MOODLE_INTERNAL') || die();
  
-$THEME->name = 'recit_legacy';
+$THEME->name = 'recitlegacy';
 $THEME->sheets = [];                                                                                                                
 $THEME->editor_sheets = [];                                                                                                         
 $THEME->parents = ['recit2'];   

@@ -15,7 +15,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
-// @package    theme_recit_legacy
+// @package    theme_recitlegacy
 // @subpackage RECIT
 // @copyright  RECIT {@link https://recitfad.ca}
 // @author     RECIT {@link https://recitfad.ca}
@@ -30,7 +30,7 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version = 2021092400;
 
 // This is the named version.
-$plugin->release = 'R14-V2.0';  
+$plugin->release = 'R14-V1.0';  
 
 // This is a stable release.
 $plugin->maturity = MATURITY_BETA;
@@ -39,7 +39,7 @@ $plugin->maturity = MATURITY_BETA;
 $plugin->requires = 2020061500.00;                                                                                         
 // This is the component name of the plugin - it always starts with 'theme_'                                                        
 // for themes and should be the same as the name of the folder.                                                                     
-$plugin->component = 'theme_recit_legacy';
+$plugin->component = 'theme_recitlegacy';
 
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [
