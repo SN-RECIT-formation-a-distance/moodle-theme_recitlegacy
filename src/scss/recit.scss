@@ -107,3 +107,12 @@ $body-color: #373a3c;
 /* Current directory is recit2/scss */
 @import "./recit/import";
 @import "./deprecated/editorhtml";
+
+/* OVERRIDE CSS CLASSES */
+#course-banner{
+    .page-header-headings {
+        h1 {
+            color: #FFF;
+        }
+    }
+}
