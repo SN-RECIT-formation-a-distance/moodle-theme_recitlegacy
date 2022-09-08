@@ -31,3 +31,4 @@ $string['choosereadme'] = 'Theme recit_legacy is a child theme of Recit';
 $string['pluginname'] = 'RÉCIT legacy';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Right';
+$string['region-side-post'] = 'Right';
