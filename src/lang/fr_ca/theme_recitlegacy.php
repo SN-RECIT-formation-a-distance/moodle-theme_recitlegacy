@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
  
 // A description shown in the admin theme selector.                                                                                 
 $string['choosereadme'] = 'Theme recit_legacy est un enfant de Recit';                
+$string['privacy:metadata'] = 'Ce plugin ne conserve aucune donnée personelle.';
 // The name of our plugin.                                                                                                          
 $string['pluginname'] = 'RÉCIT legacy';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
