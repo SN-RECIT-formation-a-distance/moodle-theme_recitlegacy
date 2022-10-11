@@ -31,7 +31,6 @@ $plugin->version = 2022100100;
 
 // This is the named version.
 $plugin->release = 'v1.1.1-stable';  
-$plugin->supported = [39, 311];      //  Moodle 3.9.x, 3.10.x and 3.11.x are supported.
 // This is a stable release.
 $plugin->maturity = MATURITY_STABLE;
 
@@ -40,6 +39,7 @@ $plugin->requires = 2020061500.00; // Moodle 3.9.0
 // This is the component name of the plugin - it always starts with 'theme_'                                                        
 // for themes and should be the same as the name of the folder.                                                                     
 $plugin->component = 'theme_recitlegacy';
+$plugin->supported = [39, 400];      //  Moodle 3.9.x, 3.10.x and 3.11.x are supported.
 
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [

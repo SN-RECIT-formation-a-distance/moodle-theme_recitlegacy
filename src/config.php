@@ -27,7 +27,8 @@ defined('MOODLE_INTERNAL') || die();
  
 $THEME->name = 'recitlegacy';
 $THEME->sheets = [];                                                                                                                
-$THEME->editor_sheets = [];                                                                                                         
+$THEME->editor_sheets = [];         
+$THEME->haseditswitch = true;                                                                                                
 $THEME->parents = ['recit2'];   
 $THEME->scss = function($theme) {
     return theme_recit2_get_main_scss_content($theme);
