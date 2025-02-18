@@ -25,21 +25,12 @@
 // This line protects the file from being accessed by a URL directly.                                                               
 defined('MOODLE_INTERNAL') || die();                                                                                                
  
-// This is the version of the plugin.                                                                                               
-
 $plugin->version = 2025013000;
-
-// This is the named version.
-$plugin->release = 'v1.2.3-stable';  
-// This is a stable release.
+$plugin->release = 'v2.0.0-stable';  
 $plugin->maturity = MATURITY_STABLE;
-
-// This is the version of Moodle this plugin requires.                                                                              
-$plugin->requires = 2022041900.00; // Moodle 4.0.0                                                                                                                                        
+$plugin->requires = 2022041900.00; 2024071200.00; // Moodle 4.5.0                                                                                                                                  
 $plugin->component = 'theme_recitlegacy';
-$plugin->supported = [400, 405];      //  Moodle 3.9.x, 3.10.x and 3.11.x are supported.
-
-// This is a list of plugins, this plugin depends on (and their versions).                                                          
+$plugin->supported = [405, 405];
 $plugin->dependencies = [
-    'theme_recit2' => 2023011900           
+    'theme_recit2' => 2025013000           
 ];
